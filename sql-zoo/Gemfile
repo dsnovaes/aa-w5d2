@@ -2,3 +2,5 @@ source "https://rubygems.org"
 
 gem 'rspec', "~> 3.1.0"
 gem 'pg'
+gem 'guard-rspec', require: false
+gem 'terminal-notifier-guard', '~> 1.6.1'
